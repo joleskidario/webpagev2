@@ -348,7 +348,7 @@ header ul li a:hover {
     width: 60px;
 }
 #social a:hover {
-    filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.6));
+    filter: drop-shadow(0 0 6px rgba(255, 255, 255, 0.6));
 }
 footer {
     border-top: 3px solid #b5b5b5;
@@ -357,4 +357,8 @@ footer {
     color: white;
     font-size: 20px;
     padding: 20px;
+}
+
+#social .test1:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8)); !important;
 }
