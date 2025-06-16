@@ -358,7 +358,3 @@ footer {
     font-size: 20px;
     padding: 20px;
 }
-
-#social .test1:hover {
-    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8)); !important;
-}
