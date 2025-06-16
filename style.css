@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    /*background-color: rgba(0,0,0,0.2);*/
+    font-family: Roboto, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-image: url("peter-rovder-X_5kMOSxLzw-unsplash.jpg");
+    background-color: rgba(0,0,0, 0.1);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2em;
+    color: white;
+    /*border-bottom: 3px solid #b5b5b5;*/
+}
+header ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 2px;
+}
+header ul li {
+    color: white;
+}
+header ul li a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+header ul li a:hover {
+    font-weight: bold;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+}
+#main {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /*border-bottom: 3px solid #b5b5b5;*/
+
+}
+#main img {
+    width: 250px;
+    padding: 10px;
+}
+#main1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: lighter;
+    margin-top: -60px;
+}
+
+#main1 h2 {
+    padding: 10px;
+}
+#main1 p {
+    padding: 10px;
+    font-size: 16px;
+    background: hsl(255, 44%, 7%, 0.5);
+    border-radius: 10px;
+    border: 1px solid white;
+
+}
+
+#biography {
+    padding: 10px;
+    width: 100%;
+    color: white;
+    background: hsl(255, 44%, 7%, 0.5);
+    border-radius: 10px;
+    border: 3px solid white;
+    backdrop-filter: blur(25px);
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.3);
+    }
+#activities p{
+    background: hsl(255, 44%, 7%, 0.5);
+    padding: 5px;
+    border-radius: 10px;
+}
+#biography h2 {
+    padding: 20px;
+    font-size: 30px;
+}
+#biography p {
+    font-size: 20px;
+    padding: 10px;
+}
+#second-part {
+    width: 415px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#third {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+}
+#interests {
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#interests ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#interests ul li {
+    padding: 3px;
+}
+#interests h3 {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+}
+#skills {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 10px;
+}
+#skills h3 {
+     display: flex;
+     align-items: center;
+     padding: 20px;
+     font-size: 30px;
+ }
+#skills ul {
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#skills ul li {
+    padding: 3px;
+}
+.education {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /*border-bottom: 3px solid #b5b5b5;*/
+}
+#education {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#education div {
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    background: hsl(255, 44%, 7%, 0.5);
+    border-radius: 10px;
+    border: 2px solid white;
+    backdrop-filter: blur(25px);
+}
+#education h2 {
+    color: white;
+    padding: 10px;
+}
+#education ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#education ul li {
+    padding: 5px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+#education ul li p {
+    font-size: 16px;
+    font-weight: lighter;
+    padding: 3px;
+}
+.activities {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding: 10px;
+    /*border-bottom: 3px solid #b5b5b5;*/
+}
+
+#activities {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px;
+
+}
+#activities img {
+    width: 200px;
+    padding: 10px;
+}
+#activities #otherprojects img {
+    width: 250px;
+}
+.activities h1 {
+    padding: 10px;
+}
+#activities #player img {
+    width: 270px;
+}
+#activities div {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 15px 10px 10px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    height: 500px;
+}
+#activities div p {
+    max-width: 55%;
+    text-align: center;
+    background: hsl(255, 44%, 7%, 0.5);
+    border-radius: 10px;
+    backdrop-filter: blur(25px);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+.contact {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contact h1 {
+    padding: 10px;
+    color: white;
+}
+#contact {
+    padding: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#contact div {
+    padding: 5px;
+}
+#contact div input {
+    width: 600px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#contact div #inputtext {
+    max-width: 600px;
+    height: 100px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#inputtext textarea {
+    width: 600px;
+    max-width: 600px;
+    min-width: 600px;
+    height: 40px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.submit {
+    margin-top: 10px;
+    padding: 10px;
+    width: 120px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+    background-color: #000000;
+}
+.submit:hover {
+    filter: drop-shadow(0 0 10px rgba(0, 123, 255, 0.6));
+}
+#social {
+    width: 100%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#social a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#social a img {
+    width: 60px;
+}
+#social a:hover {
+    filter: drop-shadow(0 0 6px rgba(0, 123, 255, 0.6));
+}
+footer {
+    border-top: 3px solid #b5b5b5;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
